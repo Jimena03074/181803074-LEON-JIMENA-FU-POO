@@ -13,7 +13,7 @@ public class KmAm {
         km = leer.nextDouble();
         
             met = km*1000;
-            System.out.println("tus metros son: " + met + "m" );
+            System.out.println("tus metros son: " + met + " m" );
     }   
 }
 
