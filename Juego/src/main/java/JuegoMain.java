@@ -41,8 +41,8 @@ public class JuegoMain {
       
       System.out.println(bronce.toString());
       System.out.println(plata.toString());
-      System.out.println(plata.toString());
-      System.out.println(plata.toString());
+      System.out.println(oro.toString());
+      System.out.println(diamante.toString());
       
 
   }  
