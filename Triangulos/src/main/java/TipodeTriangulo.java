@@ -16,16 +16,15 @@ public class TipodeTriangulo {
         System.out.println("ingresa tu lado c: ");
         ladoC = leer.nextInt();
         
-        
-        //Triangulo equilatero
+       // TRIANGULO EQUILATERO SUS LADOS SON IGUALES
         if( ladoA==ladoB && ladoA==ladoC){
          System.out.println("Es un triangulo EQUILATERO");
         
-        //Angulo Isosceles
+       // TRIANGULO ISOSCELES  DOS DE SUS LADOS SON IGUALES
         }else if(ladoA==ladoB && ladoA!=ladoC  || ladoB==ladoC && ladoB!=ladoA){
         System.out.println("Es un triangulo ISOSCELES");
          
-        //Triangulo Escaleno
+        //TRIANGULO ESCALENO TODOS SUS LADOS SON DIFERENTES
         }else if (ladoA!=ladoB && ladoA!=ladoC){
         System.out.println("Es un triangulo ESCALENO");
     }
